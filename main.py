@@ -11,6 +11,7 @@ username_element = (By.CSS_SELECTOR, "input[name='username']")
 password_element = (By.CSS_SELECTOR, "input[name='password']")
 string_username = ''
 string_password = ''
+string_test = ''
 submit = (By.CSS_SELECTOR, "button[type='submit']")
 save_information = (By.XPATH, "//div[contains(text(), 'Agora não') or contains(text(), 'Not now')]")
 not_now_notification = (By.XPATH, "//button[contains(text(), 'Agora não') or contains(text(), 'Not now')]")
